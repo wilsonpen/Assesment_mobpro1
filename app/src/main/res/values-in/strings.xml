@@ -12,7 +12,7 @@
     <string name="tentang_aplikasi">Tentang Aplikasi</string>
     <string name="kembali">Kembali</string>
     <string name="air_ml">Air harian yang dibutuhkan: %1$.0f ml</string>
-    <string name="share_template">Berat badan: %1$s kg\\nKisaran usia: %2$s\\n\\nAir per hari: %3$.2f ml</string>
+    <string name="share_template">Berat badan: %1$s kg\nKisaran usia: %2$s\n\nAir per hari: %3$.2f ml</string>
     <string name="peringatanAnak">Berat badan di atas 40. Jika Anda memilih susu formula anak-anak, hasilnya tidak akurat. Harap gunakan susu formula orang dewasa.</string>
     <string name="peringatanDewasa">Berat badan kurang dari atau sama dengan 40. Jika Anda memilih susu formula untuk orang dewasa, hasilnya tidak akurat. Harap gunakan susu formula untuk anak-anak.</string>
 </resources>
