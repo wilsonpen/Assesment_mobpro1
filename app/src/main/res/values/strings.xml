@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Asesment 1</string>
+    <string name="air_intro">An application to help you check your daily water needs. Try it now!</string>
+    <string name="berat_badan">Weight</string>
+    <string name="dewasa">Adult</string>
+    <string name="anakanak">Child</string>
+    <string name="hitung">Count</string>
+    <string name="copyright">Water requirement calculator is an Android application to calculate the amount of water requirement so that someone can know the amount of water they need per day. \n\nCopyright © 2024–2025 \nAthallah Khansa Ziven Jaya Bahtiar. \nAll rights reserved.</string>
+    <string name="input_invalid">Cannot be empty</string>
+    <string name="share">Share</string>
+    <string name="air_ml">Daily water requirement: %1$.0f ml</string>
+    <string name="kembali">Back</string>
+    <string name="tentang_aplikasi">About the app</string>
+    <string name="share_template">Body weight: %1$s kg\nAge range: %2$s\n\nWater per day: %3$.2f ml</string>
+</resources>

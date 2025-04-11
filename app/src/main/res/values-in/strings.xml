@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Asesment 1</string>
+    <string name="air_intro">Aplikasi untuk membantu mengecek kebutuhan airmu dalam sehari. Cobalah sekarang!</string>
+    <string name="berat_badan">Berat badan</string>
+    <string name="dewasa">Dewasa</string>
+    <string name="anakanak">Anak-anak</string>
+    <string name="hitung">Hitung</string>
+    <string name="copyright">Kalkulator kebutuhan air merupakan sebuah aplikasi Android untuk menghitung jumlah kebutuhan air sehingga seseorang dapat mengetahui jumlah air yang mereka butuhkan perharinya. \n\nCopyright © 2024–2025 \nAthallah Khansa Ziven Jaya Bahtiar. \nAll rights reserved.</string>
+    <string name="input_invalid">Tidak boleh kosong</string>
+    <string name="share">Bagikan</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="kembali">Kembali</string>
+    <string name="air_ml">Air harian yang dibutuhkan: %1$.0f ml</string>
+    <string name="share_template">Berat badan: %1$s kg\\nKisaran usia: %2$s\\n\\nAir per hari: %3$.2f ml</string>
+    <!--    <string name="bagikan_template">Berat badan: %1$s kg\\n Rentang usia: %3$s\\n\\nAir perhari: %4$.2f\\n%5$s</string>-->
+</resources>
