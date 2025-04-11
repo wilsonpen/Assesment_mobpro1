@@ -155,25 +155,26 @@ fun ScreenContent(modifier: Modifier = Modifier) {
                 beratError = (beratFloat == null || beratFloat <= 0f)
                 if (beratError) return@Button
                 when (selectKategori) {
-                    "anakanak"->
+                    "anakanak" -> {
                         if (berat.toFloat() > 40){
                             dataVerif = "Salah"
-                            peringatan = peringatanAnak()
-                    }else if (berat.toFloat() <=40){
-                        dataVerif = "Benar"
-                        air = hitungAiranak(berat.toFloat())
+                            peringatan = peringatanAnak(context)
+                        } else {
+                            dataVerif = "Benar"
+                            air = hitungAiranak(berat.toFloat())
+                        }
                     }
-                    "dewasa"->
+
+                    "dewasa" -> {
                         if (berat.toFloat() > 40){
                             dataVerif = "Benar"
-                            air= hitungDewasa(berat.toFloat())
-                        }else if (berat.toFloat() <=40){
+                            air = hitungDewasa(berat.toFloat())
+                        } else {
                             dataVerif = "Salah"
-                            peringatan = peringatanDewasa()
+                            peringatan = peringatanDewasa(context)
                         }
-
-                }
-            },
+                    }
+                }            },
             modifier = Modifier.padding(top = 8.dp),
             contentPadding = PaddingValues(horizontal = 32.dp, vertical = 16.dp)
         ) {
@@ -256,12 +257,12 @@ private fun hitungDewasa(berat: Float): Float {
     return hasil
 }
 
-fun peringatanAnak(): String {
-    return "Berat Lebih dari 40 Jika Anda memilih Rumus Anak Anak Hasil Tidak akurat Silahkan Menggunakan Rumus Dewasa"
+fun peringatanAnak(context: Context): String {
+    return context.getString(R.string.peringatanAnak)
 }
 
-fun peringatanDewasa(): String {
-    return "Berat Kurang atau sama dengan 40 Jika Anda memilih Rumus Dewasa Hasil Tidak akurat Silahkan Menggunakan Rumus Anak-Anak"
+fun peringatanDewasa(context: Context): String {
+    return context.getString(R.string.peringatanDewasa)
 }
 
 private fun shareData(context: Context, message:String) {
